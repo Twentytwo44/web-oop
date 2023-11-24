@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Logincard from '../components/logincard'
+import { Logincard } from '../components/logincard'
 
 
 

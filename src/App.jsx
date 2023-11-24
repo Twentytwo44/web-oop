@@ -9,10 +9,10 @@ import { MarketPages } from './pages/MarketPages'
 import { NewsPages} from './pages/NewsPages'
 import { SinglePages } from './pages/singlepages/SinglePages'
 import { SecondPages } from './pages/secondpages/SecondPages'
-
+import { ProfilePages } from './pages/ProfilePages'
 
 import { Crypto } from './pages/Crypto/Crypto'
-import { Saved } from './pages/Crypto/Saved'
+import { SavePage } from './pages/Crypto/SavePage'
 import { Trending } from './pages/Crypto/Trending'
 
 function App() {
@@ -27,10 +27,12 @@ function App() {
       <Route path="/news" element={<NewsPages />} />
       <Route path='/singlepage/:id' element={ <SinglePages/>} />
       <Route path='/secondpage/:id' element={ <SecondPages/>} />
+      <Route path='/profile' element={ <ProfilePages/>} />
+    
 
     
       <Route path='/home' element={ <Crypto/>} />
-      <Route path='/saved' element={ <Saved/>} />
+      <Route path='/saved' element={ <SavePage/>} />
       <Route path='/trending' element={ <Trending/>} />
 
    </Routes>
