@@ -10,6 +10,8 @@ export const CryptoProvider = ({ children }) => {
     const [currency, setCurrency] = useState("usd");
     const [sortBy, setSortBy] = useState("market_cap_desc");
 
+    
+
 
 
     const getCryptoData = async () => {

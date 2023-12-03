@@ -23,8 +23,8 @@ function Navbar() {
            
     </div>
     <div className="gap-10">
-            <Link className="text-black text-[25px] " to="/">Login</Link>
-            <Link className="text-white text-[25px] bg-[#B52245] pl-4 pr-4 pt-2 pb-2 rounded-full" id="Register" to="/">Sign up</Link>
+            <Link className="text-black text-[25px] " to="/login">Login</Link>
+            <Link className="text-white text-[25px] bg-[#B52245] pl-4 pr-4 pt-2 pb-2 rounded-full" id="Register" to="/register">Sign up</Link>
     </div>
          
     </div>

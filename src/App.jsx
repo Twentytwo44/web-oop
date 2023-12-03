@@ -14,6 +14,8 @@ import { ProfilePages } from './pages/ProfilePages'
 import { Crypto } from './pages/Crypto/Crypto'
 import { SavePage } from './pages/Crypto/SavePage'
 import { Trending } from './pages/Crypto/Trending'
+import { Profile } from './pages/Addcoin/Profile'
+import { Addcoin } from './pages/Addcoin/Addcoin'
 
 function App() {
   
@@ -34,6 +36,8 @@ function App() {
       <Route path='/home' element={ <Crypto/>} />
       <Route path='/saved' element={ <SavePage/>} />
       <Route path='/trending' element={ <Trending/>} />
+      <Route path='/user' element={ <Profile/>} />
+      <Route path='/addcoin' element={ <Addcoin/>} />
 
    </Routes>
     </>

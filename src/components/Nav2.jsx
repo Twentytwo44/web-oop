@@ -18,10 +18,10 @@ function Nav2() {
                 <Link className="text-black text-[30px]" to="/">Market</Link>
               </li>
               <li>
-                <Link className="text-black text-[30px]" to="/">News</Link>
+                <Link className="text-black text-[30px]" to="/news">News</Link>
               </li>
               <li>
-                <Link className="text-black text-[30px]" to="/">Dashboard</Link>
+                <Link className="text-black text-[30px]" to="/home">Dashboard</Link>
               </li>
             </ul>
            
